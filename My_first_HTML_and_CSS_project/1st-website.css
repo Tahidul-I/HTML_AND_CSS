@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Work Sans', sans-serif;
+}
+.section-01{
+    height:600px;
+    width:100%;
+    background-image:url(resources/top-banner.png);
+    background-repeat:no-repeat;
+
+}
+.float1{
+    height:540px;
+    width:40%;
+    float:left;
+}
+.orange{
+    color:orange;
+}
+h1{
+    font-size:50px;
+}
+p{
+    color:gray;
+}
+.hire{
+    text-decoration:none;
+    font-weight:700;
+    color:white;
+    background-image:linear-gradient(90deg,lightsalmon,tomato);
+    padding:15px 30px;
+    border-radius:5px;
+
+}
+.peter{
+    position:relative;
+    left:8%;
+}
+.first-image{
+    height:100%;
+    width:100%;
+    position:relative;
+    left:35%;
+}
+.section-02{
+    height:600px;
+    width:100%;
+    position:relative;
+    top:50px;
+    background-image:url(resources/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.float2{
+    height:540px;
+    width:40%;
+    float:left;
+}
+.second-image{
+height:100%;
+width:100%;
+position:relative;
+
+}
+.download{
+    text-decoration:none;
+    color:white;
+    background-image:linear-gradient(90deg,lightsalmon,tomato);
+    padding:15px 30px;
+    border-radius:5px;
+    font-weight:700;
+    position:relative;
+   
+}
+.image-02{
+    position:relative;
+    left:7.5%;
+   
+}
+.dream{
+    position:relative;
+    left:14%;
+    
+}
+.section-03{
+    height:700px;
+    width:100%;
+    background-image:url(resources/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:0% 45%;
+    position:relative;
+    top:100px;
+}
+.float3{
+    height:400px;
+    width:45%;
+    float:left;
+}
+.modify{
+    font-size:43px;
+}
+#full-stack{
+    position:relative;
+    
+    left:4%;
+    box-sizing:border-box;
+    padding-top:20px;
+    padding-left:35px;
+    
+    box-shadow:20px 20px 40px gray;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1;
+    border-left:7px solid;
+}
+.baby{
+    position:relative;
+    left:8%;
+    box-sizing:border-box;
+    padding-top:20px;
+    padding-left:35px;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice:1;
+    border-left:7px solid;
+    box-shadow:20px 20px 40px gray;
+}
+footer{
+    text-align:center;
+}

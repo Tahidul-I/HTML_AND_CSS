@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="CRUD_form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<style>
+   .main_body{
+    height:400px;
+    width:650px;
+    /* border:2px solid black; */
+    position:relative;
+    left:25%;
+    top:100px;
+    border-radius: 8px;
+   }
+   .main_form{
+    height:300px;
+    width:600px;
+    /* border:2px solid red; */
+    position:relative;
+    top:50px;
+    left:25px;
+   }
+</style>
+<body>
+    <div class="main_body bg-secondary-subtle">
+        <!-- Main form starts Here -->
+        <div class="main_form">
+            <form>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Full Name*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Mobile*</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" >
+                    <div class="row">
+                        <div class="col">
+                            <label for="formGroupExampleInput2" class="form-label mt-3">EMP.Code</label>
+                          <input type="text" class="form-control"  aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <label for="formGroupExampleInput2" class="form-label mt-3">Position*</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">Customer Service Officer</option>
+                                <option value="2">Chief Head</option>
+                                <option value="3">Human Resource</option>
+                              </select>
+                            </div>
+                            <div class="d-grid gap-2 mt-4">
+                                <button class="btn btn-success" type="submit"><i class="bi bi-database"></i>&nbsp;&nbsp;Submit</button>
+                            
+                              </div>
+                              <!-- Main form ends Here -->
+
+                              
+                      </div>
+
+                  </div>
+            </form>
+
+        </div>
+
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

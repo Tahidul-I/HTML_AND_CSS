@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(resources/Background-03.jpeg);
+    background-size:115%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+div.main{
+    
+    margin:55px auto auto 40%;
+    height:560px;
+    width:35%;
+    box-shadow:10px 10px 40px cyan;
+    box-sizing: border-box;
+    padding:30px 40px  40px 8%;
+    
+    border-radius:15px;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+input.form{
+    width:65%;
+    padding:3px;
+    border-radius:5px;
+   
+
+
+}
+label{
+    color:white;
+    font-style: italic;
+}
+h1{
+    position:relative;
+    left:30px;
+    color:white;
+    margin:3px;
+}
+#submit{
+    padding:3px 50px;
+    background-color:darkorange;
+    font-weight:700;
+    font-size:20px;
+    font-style:italic;
+    font-family:serif;
+    cursor:pointer;
+    border-radius:7px;
+    border:0px solid rgba(0, 0, 0, 0.7);
+    color:black;
+}
+.cursor{
+    cursor:pointer;
+}

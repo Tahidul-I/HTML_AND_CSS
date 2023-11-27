@@ -1,0 +1,91 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+    font-style:italic;
+    background-image:url(resources/Background-09.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    
+   
+
+}
+div.inner{
+    height:500px;
+    width:550px;
+    display:grid;
+    grid-auto-flow:column;
+    grid-template-columns:111px 203px 210px;
+    grid-template-rows:repeat(10,50px);
+    grid-gap:5px;
+    border:2px solid black;
+    border-radius:10px;
+    background-image:linear-gradient(180deg,rgba(0, 255, 255, 0.3),rgba(10, 10, 228, 0.3));
+    color:black;
+    position:relative;
+    left:30%;
+    top:60px;
+    box-shadow:10px 10px 40px blue;
+   
+}
+input{
+    height:25px;
+    width:200px;
+    justify-self:center;
+    align-self:center;
+    border-radius:5px;
+    
+}
+label{
+    justify-self:center;
+    align-self:center;
+}
+div.department{
+    grid-column:3/4;
+    grid-row:1/4;
+    font-weight:700;
+   
+}
+div.sub-department{
+    width:170px;
+    height:140px;
+    position:relative;
+    left:40px;
+}
+div.finance{
+    height:80px;
+    width:160px;
+    border:2px solid black;
+    text-align:center;
+    position:relative;
+    bottom:15px;
+    box-sizing:border-box;
+    padding-top:8px;
+    border-radius:10px;
+    
+}
+.buttons{
+    grid-column:1/4;
+    grid-row:9/10;
+    padding-left:100px;
+    padding-top:8px;
+}
+.dimension{
+    padding:10px 20px;
+    border-radius:10px;
+    border:none;
+    background-image:linear-gradient(90deg,rgb(104, 99, 99),rgb(187, 183, 183),rgb(104, 99, 99));
+    color:white;
+    font-weight:700;
+    font-style:italic;
+    font-family: 'Lato', sans-serif;
+    cursor:pointer;
+}
+a{
+    padding:20px;
+    
+    
+}
+label{
+    font-weight:700;
+}

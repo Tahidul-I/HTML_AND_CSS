@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+div.main{
+    position:relative;
+    height:400px;
+    width:400px;
+    top:90px;
+    left:40%;
+
+}
+ .cube{
+    height:200px;
+    width:200px;
+    position:absolute;
+    background-image:linear-gradient(to right,blue,cyan);
+    box-shadow:inset 0px 0px 20px 0px currentColor;
+}
+div.cube-top{
+    transform:rotate(45deg) skew(-15deg,-15deg) translate(0%,0%);
+}
+div.cube-left{
+    transform:rotate(15deg) skew(15deg,15deg) translate(-50%,100%);
+    
+}
+div.cube-front{
+    transform:rotate(-15deg) skew(-15deg,-15deg) translate(50%,100%);
+   
+} 

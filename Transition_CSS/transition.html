@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #section{
+            width:800px;
+            height:300px;
+            margin:100px 100px;
+        }
+        .main{
+            width:200px;
+            height:200px;
+            background-color:cyan;
+            border:1px solid red;
+            position:relative;
+            left:30px;
+            transition:transform,background-color,width,height;
+            transition-duration:3s;
+        }
+        .main-second{
+            width:200px;
+            height:200px;
+            background-color:blue;
+            border:1px solid red;
+            position:relative;
+            left:65px;
+            transition-property:transform, background-color,height,width;
+            transition-duration:3s;
+        }
+        .main-third{
+            width:200px;
+            height:200px;
+             background-color:black;
+            border:1px solid red;
+            position:relative;
+            left:100px;
+            transition-property:transform, background-color;
+            transition-duration:3s;
+
+        }
+        .box{
+            float:left;
+                        
+        }
+        .main:hover{
+            background-image:url(resources/Background-01.jpg);
+            width:500px;
+            height:500px;
+            transform:rotate(360deg);
+            
+            
+        }
+        
+
+        
+        .main-second:hover{
+            height:500px;
+            width:500px;
+            transform:rotate(360deg);
+            background-color:rgb(112, 216, 117);
+
+        }
+        .main-third:hover{
+            transform:rotate(360deg);
+            background-color:rgb(112, 216, 164);
+
+        }
+    </style>
+</head>
+<body>
+<section id="section">
+    <div  class="main box"></div>
+    <div class="main-second box"><span>Hey There</span> </div>
+    <div class="main-third box"></div>
+</section>
+</body>
+</html>
